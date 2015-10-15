@@ -14,7 +14,7 @@
 
 @protocol ZipArchiveDelegate;
 
-@interface Main: NSObject
+@interface CCZipArchive: NSObject
 
 // Unzip
 + (BOOL)unzipFileAtPath:(NSString *)path

@@ -28,7 +28,7 @@
 		A527EDD41B52806D00CA3DAF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A527EDD31B52806D00CA3DAF /* libz.dylib */; };
 		A527EDD91B52809700CA3DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A527EDD71B52808900CA3DAF /* Foundation.framework */; };
 		A527EDDA1B52809700CA3DAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A527EDD51B52808400CA3DAF /* CoreGraphics.framework */; };
-		A53101811B5284E200FA26EA /* Main.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D15D181B51A4D000929105 /* Main.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53101811B5284E200FA26EA /* CCZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D15D181B51A4D000929105 /* CCZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A53101831B528EE100FA26EA /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D15CBD1B51A38C00929105 /* ZipArchive.framework */; };
 		A53101841B528EF200FA26EA /* ZipArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D15CCF1B51A38C00929105 /* ZipArchiveTests.m */; };
 		A5D15CC31B51A38C00929105 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D15CC21B51A38C00929105 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +38,7 @@
 		A5D15CEB1B51A3A400929105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D15CE91B51A3A400929105 /* Main.storyboard */; };
 		A5D15CED1B51A3A400929105 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D15CEC1B51A3A400929105 /* Images.xcassets */; };
 		A5D15CF01B51A3A400929105 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D15CEE1B51A3A400929105 /* LaunchScreen.xib */; };
-		A5D15D1B1B51A4D000929105 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D15D191B51A4D000929105 /* Main.m */; };
+		A5D15D1B1B51A4D000929105 /* CCZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D15D191B51A4D000929105 /* CCZipArchive.m */; };
 		A5D15D2B1B51CEAC00929105 /* 0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5D15D231B51CEAC00929105 /* 0.m4a */; };
 		A5D15D2C1B51CEAC00929105 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5D15D241B51CEAC00929105 /* 1.m4a */; };
 		A5D15D2D1B51CEAC00929105 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A5D15D251B51CEAC00929105 /* 2.m4a */; };
@@ -55,8 +55,8 @@
 		A5D15D411B51CED100929105 /* TestArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = A5D15D391B51CED100929105 /* TestArchive.zip */; };
 		A5D15D421B51CED100929105 /* TestPasswordArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = A5D15D3A1B51CED100929105 /* TestPasswordArchive.zip */; };
 		A5D15D431B51CED100929105 /* Unicode.zip in Resources */ = {isa = PBXBuildFile; fileRef = A5D15D3B1B51CED100929105 /* Unicode.zip */; };
-		A5D15D441B51CF2900929105 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D15D191B51A4D000929105 /* Main.m */; };
-		A5D15D451B51D64200929105 /* Main.m in Headers */ = {isa = PBXBuildFile; fileRef = A5D15D191B51A4D000929105 /* Main.m */; };
+		A5D15D441B51CF2900929105 /* CCZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D15D191B51A4D000929105 /* CCZipArchive.m */; };
+		A5D15D451B51D64200929105 /* CCZipArchive.m in Headers */ = {isa = PBXBuildFile; fileRef = A5D15D191B51A4D000929105 /* CCZipArchive.m */; };
 		A5D15D461B51D68600929105 /* CollectingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D15D1E1B51CD5600929105 /* CollectingDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -99,8 +99,8 @@
 		A5D15D0B1B51A44C00929105 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = minizip/unzip.h; sourceTree = "<group>"; };
 		A5D15D0C1B51A44C00929105 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zip.c; path = minizip/zip.c; sourceTree = "<group>"; };
 		A5D15D0D1B51A44C00929105 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zip.h; path = minizip/zip.h; sourceTree = "<group>"; };
-		A5D15D181B51A4D000929105 /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
-		A5D15D191B51A4D000929105 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		A5D15D181B51A4D000929105 /* CCZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZipArchive.h; sourceTree = "<group>"; };
+		A5D15D191B51A4D000929105 /* CCZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZipArchive.m; sourceTree = "<group>"; };
 		A5D15D1C1B51CD4C00929105 /* CollectingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectingDelegate.h; sourceTree = "<group>"; };
 		A5D15D1E1B51CD5600929105 /* CollectingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectingDelegate.m; sourceTree = "<group>"; };
 		A5D15D231B51CEAC00929105 /* 0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = 0.m4a; path = Multi_Zip_Test/0.m4a; sourceTree = "<group>"; };
@@ -186,8 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				A5D15CC21B51A38C00929105 /* ZipArchive.h */,
-				A5D15D181B51A4D000929105 /* Main.h */,
-				A5D15D191B51A4D000929105 /* Main.m */,
+				A5D15D181B51A4D000929105 /* CCZipArchive.h */,
+				A5D15D191B51A4D000929105 /* CCZipArchive.m */,
 				A5D15CC01B51A38C00929105 /* Supporting Files */,
 			);
 			path = ZipArchive;
@@ -301,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D15CC31B51A38C00929105 /* ZipArchive.h in Headers */,
-				A53101811B5284E200FA26EA /* Main.h in Headers */,
+				A53101811B5284E200FA26EA /* CCZipArchive.h in Headers */,
 				A527EDC11B527FD000CA3DAF /* crypt.h in Headers */,
 				A527EDC21B527FD000CA3DAF /* ioapi.c in Headers */,
 				A527EDC31B527FD000CA3DAF /* ioapi.h in Headers */,
@@ -311,7 +311,7 @@
 				A527EDC71B527FD000CA3DAF /* unzip.h in Headers */,
 				A527EDC81B527FD000CA3DAF /* zip.c in Headers */,
 				A527EDC91B527FD000CA3DAF /* zip.h in Headers */,
-				A5D15D451B51D64200929105 /* Main.m in Headers */,
+				A5D15D451B51D64200929105 /* CCZipArchive.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +377,7 @@
 		A5D15CB41B51A38C00929105 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Cosmic Labs";
 				TargetAttributes = {
 					A5D15CBC1B51A38C00929105 = {
@@ -459,7 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D15D1B1B51A4D000929105 /* Main.m in Sources */,
+				A5D15D1B1B51A4D000929105 /* CCZipArchive.m in Sources */,
 				A527EDCA1B52804E00CA3DAF /* crypt.h in Sources */,
 				A527EDCB1B52804E00CA3DAF /* ioapi.c in Sources */,
 				A527EDCC1B52804E00CA3DAF /* ioapi.h in Sources */,
@@ -477,7 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A53101841B528EF200FA26EA /* ZipArchiveTests.m in Sources */,
-				A5D15D441B51CF2900929105 /* Main.m in Sources */,
+				A5D15D441B51CF2900929105 /* CCZipArchive.m in Sources */,
 				A5D15D461B51D68600929105 /* CollectingDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,6 +544,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -621,6 +622,7 @@
 				INFOPLIST_FILE = ZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -637,6 +639,7 @@
 				INFOPLIST_FILE = ZipArchive/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -656,6 +659,7 @@
 				);
 				INFOPLIST_FILE = ZipArchiveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -670,6 +674,7 @@
 				);
 				INFOPLIST_FILE = ZipArchiveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -684,6 +689,7 @@
 				);
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -694,6 +700,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.cosmiclabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
